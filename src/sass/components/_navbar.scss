@@ -1,0 +1,61 @@
+.navigation {
+  height: 55px;
+  background-color: $background-sections-color;
+  z-index: 1;
+
+  .row-no-padding {
+    [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  img {
+    height: 20px;
+    width: 20px;
+    color: $sidebar-font-color;
+    line-height: 20px;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+
+  .empty {
+    height: 55px;
+    border: 1px solid $background-basic-color;
+    border-top: 0;
+  }
+  .wallet {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    justify-content: space-around;
+    border: 1px solid $background-basic-color;
+    border-top: 0;
+  }
+
+  .notification {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    justify-content: center;
+    border: 1px solid $background-basic-color;
+    border-top: 0;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    justify-content: space-around;
+    border: 1px solid $background-basic-color;
+    border-top: 0;
+  }
+
+  .quit {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    justify-content: center;
+    border: 1px solid $background-basic-color;
+    border-top: 0;
+  }
+}
