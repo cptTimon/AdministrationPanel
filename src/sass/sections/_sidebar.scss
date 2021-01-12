@@ -36,16 +36,13 @@
   filter: brightness(150%);
 }
 
-.option-active {
-  background-color: #2b2b2b;
-  filter: brightness(150%);
-}
 
 aside {
   background-color: $sidebar-background-color;
   max-width: 280px;
   position: fixed;
   z-index: 2;
+  height: 100vh;
 
   .row-no-padding {
     [class*="col-"] {

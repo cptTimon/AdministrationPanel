@@ -5,8 +5,8 @@
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin panel </title>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i%7cSource+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i%7cFira+Sans" rel="stylesheet">
   <link rel="stylesheet" href="vendor/bootstrap-grid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,43 +24,43 @@
             </li>
             <li>
               <div class="option">
-                <img src="icons/general.svg">
+                <img src="icons/general.svg" alt="icon">
                 <a href="#">General</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/details.svg">
+                <img src="icons/details.svg" alt="icon">
                 <a href="#">Details</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/links.svg">
+                <img src="icons/links.svg" alt="icon">
                 <a href="#">Links</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/banners.svg">
+                <img src="icons/banners.svg" alt="icon">
                 <a href="#">Banners</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/personaldata.svg">
+                <img src="icons/personaldata.svg" alt="icon">
                 <a href="#">Personal data</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/payout.svg">
+                <img src="icons/payout.svg" alt="icon">
                 <a href="#">Payout</a>
               </div>
             </li>
             <li>
               <div class="option">
-                <img src="icons/postback.svg">
+                <img src="icons/postback.svg" alt="icon">
                 <a href="#">Postback</a>
               </div>
             </li>
@@ -72,7 +72,7 @@
             <li>
               <p>Manager</p>
               <div class="manager">
-                <img src="images/manager.jpg">
+                <img src="images/manager.jpg"  alt="manager">
                 <a href="#">Wojciech K.</a>
               </div>
             </li>
@@ -94,25 +94,25 @@
             </div>
             <div class="col-md-2">
               <div class="wallet">
-                <img src="icons/wallet.svg">
+                <img src="icons/wallet.svg" alt="icon">
                 <p>$1,500.00</p>
-                <img src="icons/arrow-down-small.svg">
+                <img src="icons/arrow-down-small.svg" alt="icon">
               </div>
             </div>
             <div class="col-1">
               <div class="notification">
-                <img src="icons/notification.svg">
+                <img src="icons/notification.svg" alt="icon">
               </div>
             </div>
             <div class="col-md-2">
               <div class="profile">
-                <img src="icons/profile.svg">
+                <img src="icons/profile.svg" alt="icon">
                 <a href="#">Leonardo Dicaprio</a>
               </div>
             </div>
             <div class="col-1">
               <div class="quit">
-                <img src="icons/quit.svg">
+                <img src="icons/quit.svg" alt="icon">
               </div>
             </div>
           </div>
@@ -120,6 +120,33 @@
       </div>
     </div>
   </nav>
+
+  <main>
+    <section class="section-general">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="offset-md-2 col-md-10">
+            <div class="general">
+              <div class="view-header">
+                <h3> GENERAL STATISTIC</h3>
+              </div>
+            </div>
+            <div class="date-form">
+              <div class="date">
+                <p>16.05.2016</p>
+              </div>
+              <form>
+                <input type="date" id="start" name="trip-start" value="2016-05-16" min="2016-01-01" max="2020-12-31">
+              </form>
+              <button class="refresh">
+                <img src="icons/refresh.svg">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="js/scripts.js"></script>
 </body>
 </html>

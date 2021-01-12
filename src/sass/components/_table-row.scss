@@ -1,0 +1,19 @@
+.table-row {
+  height: 50px;
+  width: 300px;
+  background-color: $background-sections-color;
+  border-bottom: 1px solid $background-basic-color;
+  display: flex;
+  align-items: center;
+
+  h4 {
+    display: inline-block;
+    font-family: $paragraph-font;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+
+  h4:last-of-type {
+    margin-left: 165px;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(52%) contrast(82%);
+  }
+}

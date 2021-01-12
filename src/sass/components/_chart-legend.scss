@@ -1,0 +1,23 @@
+.chart-legend {
+  height: 40px;
+  width: 120px;
+  background-color: $background-basic-color;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 10px;
+
+  .circle {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 100%;
+    z-index: 2;
+  }
+
+  p {
+    font-family: $paragraph-font;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(72%) contrast(82%);
+  }
+}

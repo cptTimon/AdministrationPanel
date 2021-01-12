@@ -2,12 +2,19 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
-@import "components/sidebar";
-@import "components/navbar"
+// /* Components */
+@import "components/view-header";
+@import "components/date-form";
+@import "components/refresh_button";
+@import "components/table-row";
+@import "components/chart-legend";
+// /* Sections */
+@import "sections/sidebar";
+@import "sections/navbar";
+@import "sections/general";
+
 /* Components */
 
-// /* Sections */
-// @import "section/registration_form";
 
 // /* Pages / Views */
 // @import "pages/registration";
