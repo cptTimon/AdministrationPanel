@@ -2,19 +2,23 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
+
 // /* Components */
 @import "components/view-header";
 @import "components/date-form";
 @import "components/refresh_button";
 @import "components/table-row";
-@import "components/chart-legend";
+@import "components/single-chart-legend";
+@import "components/button_orange";
+@import "components/link";
+
 // /* Sections */
 @import "sections/sidebar";
 @import "sections/navbar";
 @import "sections/general";
-
-/* Components */
-
+@import "sections/general-chart";
+@import "sections/general-links";
 
 // /* Pages / Views */
+@import "pages/page-general";
 // @import "pages/registration";
