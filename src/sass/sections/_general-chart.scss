@@ -61,5 +61,51 @@
       }
     }
   }
+
+  .scroll-wrapper {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+
+    img {
+      width: auto;
+      max-width: 100%;
+    }
+  }
+}
+/* Media */
+@media (max-width: 575px) {
+  .section-chart {
+    .box {
+      height: 680px;
+    }
+
+    .chart-statistics {
+      height: 100%;
+      margin-top: 0;
+    }
+
+    .chart-legend {
+      margin-top: 60px;
+      text-align: center;
+      height: 120px;
+
+      h4 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .chart {
+    height: auto;
+  }
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+  .section-chart {
+    .box {
+      height: 600px;
+    }
+  }
+}

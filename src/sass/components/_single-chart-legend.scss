@@ -21,3 +21,20 @@
     filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(72%) contrast(82%);
   }
 }
+
+/* Media */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .chart-legend {
+    h4 {
+      margin-left: 30px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .chart-legend {
+    h4 {
+      margin-left: 30px;
+    }
+  }
+}
