@@ -15,10 +15,12 @@
 
 // /* Sections */
 @import "sections/sidebar";
+@import "sections/navbar-mobile";
 @import "sections/navbar";
 @import "sections/general";
 @import "sections/general-chart";
 @import "sections/general-links";
+
 
 // /* Pages / Views */
 @import "pages/page-general";

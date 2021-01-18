@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-mobile {
+    display: block;
+
+    .navbar-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    i {
+      font-size: 30px;
+      background-color: transparent;
+      border: 0;
+      cursor: pointer;
+      filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+    }
+
+    h2 {
+      font-style: italic;
+      font-weight: bold;
+      font-family: 'Cormorant Garamond', Serif;
+      font-size: 30px;
+      margin: 10px 0 10px;
+      filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+    }
+
+    ul {
+      list-style: none;
+      padding-inline-start: 0;
+      margin-top: 20px;
+      display: none;
+    }
+  }
+
+  .option-mobile {
+    height: 60px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 30px;
+      width: 30px;
+      color: $sidebar-font-color;
+      line-height: 30px;
+      filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+      cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: 15px;
+      color: $sidebar-font-color;
+      filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+    }
+
+    .arrow {
+      margin-left: 15px;
+    }
+  }
+
+  .option-mobile:hover {
+    filter: brightness(60%);
+    cursor: pointer;
+  }
+
+  .option-mobile:active {
+    filter: brightness(60%);
+    cursor: pointer;
+  }
+}
+
+.navbar-mobile ul.show {
+  display: block;
+}
