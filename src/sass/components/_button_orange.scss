@@ -9,6 +9,13 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: $paragraph-font;
+  }
 }
 
 .btn-orange:hover {

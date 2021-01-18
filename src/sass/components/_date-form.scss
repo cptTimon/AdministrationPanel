@@ -1,4 +1,4 @@
-/* .date-form {
+.wrapperro {
   height: 120px;
   width: 100%;
   background-color: $background-sections-color;
@@ -7,31 +7,53 @@
   align-items: center;
   justify-content: center;
 
-  .date {
-    height: 50px;
-    width: 140px;
-    border: 2px solid $background-basic-color;
-    border-radius: 5%;
+  .new-date-form {
     display: flex;
-    align-items: center;
-    position: relative;
+    flex-direction: row;
+    cursor: pointer;
+
+    #start-date {
+      border-right: none;
+    }
+
+    .date-wrapper {
+      display: flex;
+      position: relative;
+      cursor: pointer;
+
+      img{
+        height: 15px;
+        width: 15px;
+        position: absolute;
+        right: 10%;
+        top: 32%;
+        visibility: hidden;
+        filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+      }
+
+      input {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        background-color: $background-sections-color;
+        border: 2px solid $background-basic-color;
+        padding-left: 10px;
+        cursor: pointer;
+      }
+
+      input[type="date"]::-webkit-calendar-picker-indicator,
+      input[type="date"]::-webkit-inner-spin-button{
+        opacity: 0.001;
+      }
+    }
   }
 
-  input {
-    height: 50px;
-    border: 2px solid $background-basic-color;
-    z-index: 1;
+  .new-date-form:hover {
+    .date-wrapper {
+      img {
+        visibility: visible;
+      }
+    }
   }
 
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    color: rgba(0, 0, 0, 0);
-    opacity: 1;
-    display: block;
-    background: url("../../icons/calendar.svg") no-repeat;
-    background-size: 18px;
-    width: 20px;
-    height: 20px;
-    border-width: thin;
-  }
 }
-*/
