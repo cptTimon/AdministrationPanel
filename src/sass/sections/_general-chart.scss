@@ -74,7 +74,9 @@
     }
   }
 }
+
 /* Media */
+
 @media (max-width: 575px) {
   .section-chart {
     .box {
@@ -95,10 +97,10 @@
         margin-bottom: 40px;
       }
     }
-  }
 
-  .chart {
-    height: auto;
+    .chart {
+      height: auto;
+    }
   }
 }
 

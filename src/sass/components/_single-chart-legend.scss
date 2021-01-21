@@ -24,14 +24,7 @@
 
 /* Media */
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .chart-legend {
-    h4 {
-      margin-left: 30px;
-    }
-  }
-}
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .chart-legend {
     h4 {
       margin-left: 30px;

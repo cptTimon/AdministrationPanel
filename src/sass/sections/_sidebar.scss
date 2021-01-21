@@ -22,7 +22,6 @@
     color: $sidebar-font-color;
     filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
   }
-
 }
 
 .option:hover {
@@ -109,11 +108,8 @@ aside {
   }
 }
 
-.hidden-sidebar {
-  margin-top: 25px;
-}
-
 /* Media */
+
 @media (max-width: 767px) {
   aside {
     display: none;
@@ -124,8 +120,3 @@ aside {
   }
 }
 
-@media (min-width: 768px) {
-  .hidden-sidebar {
-    display: none;
-  }
-}
