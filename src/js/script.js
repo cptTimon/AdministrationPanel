@@ -15,22 +15,3 @@ function toggleMobileMenu() {
 hamburger.addEventListener('click', function(){
   toggleMobileMenu();
 });
-
-
-const app = {
-
-  initPages: function() {
-    const thisApp = this;
-    thisApp.pages = document.querySelectorAll('.page');
-    console.log(thisApp.pages);
-    thisApp.activatePage(thisApp.pages[0].id);
-    console.log(thisApp.activatePage(thisApp.pages[0].id));
-  },
-
-  activatePage: function() {
-
-  }
-
-};
-
-app.initPages();
