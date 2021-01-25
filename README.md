@@ -1,3 +1,3 @@
 # AdministrationPanel
 
-https://cpttimon.github.io/AdministrationPanel/
+https://cpttimon.github.io/AdministrationPanel/dist/index.html
